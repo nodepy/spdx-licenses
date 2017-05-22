@@ -10,7 +10,7 @@ for lic in licenses:
 
 ## Development
 
-Install the development dependencies via `nodepy-pm install --dev`. Then run
+Install the development dependencies via `nppm install --dev`. Then run
 the following to update the `licenses.json` file.
 
     $ nodepy generate > licenses.json
