@@ -61,7 +61,7 @@ def main():
       'deprecated': True
     })
 
-  json.dump(licenses, sys.stdout, indent=2)
+  json.dump(licenses, sys.stdout, indent=2, sort_keys=True)
 
 if require.main == module:
   main()

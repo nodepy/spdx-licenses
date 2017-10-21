@@ -21,4 +21,6 @@
 This module exports a list of the licenses on https://spdx.org/licenses/.
 """
 
-exports = require('./licenses.json')
+import json
+with open(str(module.directory.joinpath('licenses.json'))) as fp:
+  module.exports = json.load(fp)

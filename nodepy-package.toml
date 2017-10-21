@@ -1,0 +1,12 @@
+[package]
+name = "spdx-licenses"
+version = "0.0.2"
+description = "License database from spdx.org/licenses"
+license = "MIT"
+
+[authors]
+"Niklas Rosenstein" = { email = "rosensteinniklas@gmail.com>" }
+
+[dependencies.python.'cfg(development)']
+bs4 = ">=0.0.1"
+requests = ">=2.14.2"
